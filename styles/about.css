@@ -160,6 +160,7 @@
 footer ul {
   list-style: none;
   display: flex;
+  padding: 10px 0 10px 0;
 }
 
 footer li {
