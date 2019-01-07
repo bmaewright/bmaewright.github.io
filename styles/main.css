@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+h1 {
+  margin: 24px 0 0 52px;
+  font-weight: normal;
+}
+
+h1 a{
+  text-decoration: none;
+  color: black;
+}
+h2{
+  font-weight: normal;
+}
+
+.global {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.global p {
+  margin: 5px 0 0 52px;
+}
+
+.global ul {
+  margin: 0.67em 52px 0 0;
+  display: flex;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.global li {
+  margin: 0 26px;
+}
+
+.global a{
+  text-decoration: none;
+  color: black;
+}
+
+.sectitle {
+  margin: 80px 0 0 52px;
+}
+
+/* Venn Diagram */
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.top {
+  margin: 50px 52px 0 52px;
+  justify-content: space-between;
+}
+.intersectText {
+  /* flex-basis: 30%; */
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.circle {
+  /* border: 2px black solid; */
+  background-color: rgba(53, 150, 164, 0.5);
+  height: 234px;
+  width: 234px;
+  border-radius: 50%;
+  font-size: 22px;
+  color: white;
+}
+
+.research {
+  margin: 0 0 0 95px;
+  display: flex;
+  justify-content: center;
+}
+
+.design {
+  margin: -64px 0 0 -44px;
+  display: flex;
+  justify-content: center;
+}
+
+.engineer {
+  margin: -64px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.centre p {
+  padding: 75px 0 75px 0;
+}
+
+.bottom {
+  justify-content: center;
+  margin: 55px 0 0 0;
+}
+
+/* footer */
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+footer li {
+  margin: 15px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer li:first-child{
+  margin: 15px 15px 15px 52px;
+}

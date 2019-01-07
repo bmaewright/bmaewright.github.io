@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  ul{
+    list-style: none;
+    padding-inline-start: 0;
+  }
+  
+  /* header */
+  h1 {
+    margin: 24px 0 0 52px;
+    font-weight: normal;
+  }
+
+  h1 a{
+    text-decoration: none;
+    color: black;
+  }
+  h2{
+    font-weight: normal;
+  }
+  
+  .global {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .global p {
+    margin: 5px 0 0 52px;
+  }
+  
+  .global ul {
+    margin: 0.67em 52px 0 0;
+    display: flex;
+  }
+  
+  .global li {
+    margin: 0 26px;
+  }
+  .global a{
+      text-decoration: none;
+      color: black;
+  }
+
+  .sectitle {
+    margin: 80px 0 0 52px;
+  }
+
+/* projects */
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 0 52px;
+    justify-content: center;
+
+}
+
+.project {
+    height: 350px;
+    width: 580px;
+    background-color: grey;
+    margin: 15px 30px 15px 0;
+    border-radius: 8px;
+}
+
+.one {
+    background-image: url(/assets/Dashboard/DementiaFriendsProjectPage.png);
+    background-size: cover;
+}
+
+.two {
+    background-image: url(/assets/Barbican/BarbicanProjectPage.png);
+    background-size: cover;
+}
+
+.three{
+    background-image: url(/assets/Ecommerce/EcommerceProjectPage.png);
+    background-size: cover;
+}
+
+.four{
+    background-image: url(/assets/FoodieFindsProject.png);
+    background-size: cover;
+}
+
+.overlay{
+    height: 350px;
+    width: 580px;
+    border-radius: 8px;
+    opacity: 0;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.project:hover {
+    background-image: none;
+    background-color: rgb(41, 52, 71);
+}
+
+.project:hover .overlay{
+    opacity: 1;
+}
+
+ /* footer */
+
+footer ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  footer li {
+    margin: 15px;
+  }
+
+  footer li:first-child{
+      margin: 15px 15px 15px 52px;
+  }
