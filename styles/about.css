@@ -167,6 +167,11 @@ footer li {
   margin: 15px;
 }
 
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
 footer li:first-child{
   margin: 15px 15px 15px 52px;
 }
