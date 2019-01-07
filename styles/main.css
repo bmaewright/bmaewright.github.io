@@ -20,6 +20,7 @@ h1 a{
   text-decoration: none;
   color: black;
 }
+
 h2{
   font-weight: normal;
 }
@@ -102,10 +103,17 @@ h2{
 .centre p {
   padding: 75px 0 75px 0;
 }
+.engineer p{
+  padding: 75px 50px 75px 20px;
+}
+.design p{
+  padding: 75px 20px 75px 35px;
+}
 
 .bottom {
   justify-content: center;
   margin: 55px 0 0 0;
+  flex-wrap: wrap;
 }
 
 /* footer */
@@ -125,4 +133,28 @@ footer a{
 
 footer li:first-child{
   margin: 15px 15px 15px 52px;
+}
+
+@media only screen and (max-width: 768px){
+  h1 {
+    margin: 24px 0 0 10px;
+  }
+  .global p {
+    margin: 5px 0 0 10px;
+  }
+  .global li {
+    margin: 0 15px;
+  }
+  .sectitle {
+    margin: 40px 0 0 10px;
+  }
+  .top {
+    margin: 50px 10px 0 10px;
+  }
+  .left {
+    margin: 0px;
+  }
+  footer li:first-child{
+    margin: 15px 15px 15px 10px;
+  }
 }

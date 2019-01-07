@@ -169,3 +169,27 @@ footer li {
 footer li:first-child{
   margin: 15px 15px 15px 52px;
 }
+
+@media only screen and (max-width: 768px){
+  h1 {
+    margin: 24px 0 0 10px;
+  }
+  .global p {
+    margin: 5px 0 0 10px;
+  }
+  .global li {
+    margin: 0 15px;
+  }
+  .sectitle {
+    margin: 40px 0 0 10px;
+  }
+  .overview {
+    margin: 5px 10px 5px 10px;
+      }
+  .row{
+    margin: 60px 10px 70px 10px;
+  }
+  footer li:first-child{
+    margin: 15px 15px 15px 10px;
+  }
+}
