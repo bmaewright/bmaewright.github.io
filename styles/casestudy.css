@@ -80,8 +80,8 @@ img{
 }
 
 .text{
-    height: 360px;
-    width: 578px;
+    max-height: 400px;
+    max-width: 578px;
     margin: 10px 38px;
 }
 
